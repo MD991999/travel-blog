@@ -1,0 +1,512 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.bg-image {
+    background-image: url(travelimages/pic2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+/* 
+.heading2{
+   display:flex;
+   flex-direction: row;
+   justify-content: space-between;
+}  */
+/* @media(max-width:720px){
+    .bg-image{
+        width:100%;
+        height:auto;
+    }
+    
+} */
+
+
+.div-travel {
+    margin-top: 150px;
+}
+
+.div-h1,
+.div-h12 {
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(26, 16, 16);
+    font-size: 45px;
+}
+
+.div-h3,
+.div-h31 {
+    font-family: 'Lobster', cursive;
+    color: rgb(26, 16, 16);
+    font-size: 30px;
+
+
+}
+
+.div-a {
+    font-size: 35px;
+    font-weight: 400;
+    color: darkgoldenrod;
+}
+
+.div-a-span {
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+
+.enquiry {
+    background-color: rgb(25, 66, 25);
+    color: white;
+    margin-top: 165px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.class {
+    width: 16rem;
+    margin-right: 25px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.div-div {
+    height: 90vh;
+}
+
+.honeymoon,.piccard {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+
+.button {
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgb(26, 146, 185);
+    color: black;
+}
+
+.third {
+    /* margin-top: 100px;  */
+    margin-bottom: 70px;
+}
+
+.puli {
+    width: 100%;
+    height: 255px;
+    margin-top: 20px;
+
+}
+
+.vallam {
+    width: 100%;
+    height: 255px;
+    margin-top: 20px;
+
+}
+
+.ele {
+    width: 100%;
+    height: 255px;
+    margin-top: 20px;
+}
+
+@media(max-width:700px) {
+
+    .puli,
+    .vallam,
+    .ele {
+        margin-top: 30px;
+    }
+}
+
+.container {
+    margin-top: 100px;
+}
+
+/* .temple{
+    width:100%;
+    object-fit: contain;
+  height:23vw;
+}  */
+
+.arrange {
+    /* display: inline-block; */
+    /* flex-direction:row; */
+    width: 100%;
+    /* justify-content:space-between;} */
+}
+
+
+.first {
+    overflow: hidden;
+    display: inline-block;
+}
+  
+    .description {
+        font-family: 'Lobster', cursive;
+    }
+
+    .more {
+        color: blueviolet;
+    }
+
+    /* .kai{
+       /* width:200px; */
+    /* height:auto;
+       object-fit: cover; */
+
+
+
+
+
+/* .reviews{
+        background-image: url("travelimages/pic22.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+         background-position: center center;
+        height: 350px;
+    } */
+    .parent45{
+        width:100%;
+  height:60vw;}
+
+
+
+
+.ranbhir{
+  width:100%;
+height:15vw;
+    object-fit:cover;
+}
+
+.col {
+    width: 21rem;
+    /* height:30vh; */
+
+}
+
+.star {
+    color: rgb(9, 66, 9);
+}
+/* .parent45{
+    height:1000px;
+    width:100%;
+} */
+.seventh {
+    background-color: rgb(4, 4, 17);
+    width: 100%;
+    height: 300px;
+}
+
+.last {
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+}
+
+.warning {
+    color: rgb(219, 47, 17);
+}
+
+.card123 {
+    border-radius: 100px;
+    margin-bottom: 10px;
+    background-color: rgb(213, 223, 236);
+}
+.watsapp{
+    vertical-align: bottom;
+}
+
+/* mediaquery */
+@media(max-width:576px) {
+    .bg-image {
+        height: 100vh;
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .div-h1,
+    .div-h12 {
+        font-family: 'Alfa Slab One', cursive;
+        color: rgb(26, 16, 16);
+        font-size: 35px;
+    }
+
+    .div-h3,
+    .div-h31 {
+        font-family: 'Lobster', cursive;
+        color: rgb(26, 16, 16);
+        font-size: 25px;
+
+
+    }
+.templecontainer{
+    margin-top:10px;
+}
+/* .shift{
+float:right;
+} */
+}
+
+@media(min-width:576px) {
+
+    .div-h1,
+    .div-h12 {
+        font-family: 'Alfa Slab One', cursive;
+        color: rgb(26, 16, 16);
+        font-size: 35px;
+    }
+
+    .div-h3,
+    .div-h31 {
+        font-family: 'Lobster', cursive;
+        color: rgb(26, 16, 16);
+        font-size: 25px;
+
+
+    }
+    .templecontainer{
+        margin-top:10px;
+    }
+}
+
+@media(min-width:768px) {
+
+    .div-h1,
+    .div-h12 {
+        font-family: 'Alfa Slab One', cursive;
+        color: rgb(26, 16, 16);
+        font-size: 45px;
+    }
+
+    .div-h3,
+    .div-h31 {
+        font-family: 'Lobster', cursive;
+        color: rgb(26, 16, 16);
+        font-size: 30px;
+
+
+    }
+}
+
+@media(max-width:576px) {
+    .morning {
+        width: 75%;
+        margin-top: 100px;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+
+    .piccard {
+        height: 200px;
+
+    }
+
+}
+
+@media(min-width:576px) {
+    .morning {
+        width: 90%;
+        margin-top: 100px;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-left: 25px;
+    }
+
+    .piccard {
+        height: 200px;
+    }
+
+}
+
+/* @media(min-width:992px) {
+    .morning {
+        width: 100%;
+        margin-right:15px;
+
+    }
+} */
+@media(max-width:576px){
+   .card123{
+    width: 45%;
+    margin-top: 100px;
+    margin: auto;
+    margin-bottom: 50px;
+   } 
+   .kaicard{
+    height:200px;
+   }
+}
+@media(min-width:576px){
+    .card123{
+        width: 65%;
+        margin-top: 100px;
+        margin: auto;
+        margin-bottom: 50px;
+       } 
+       .kaicard{
+        height:250px;
+       }
+}
+@media(min-width:992px){
+    .card123{
+        width: 65%;
+        margin-top: 100px;
+        margin: auto;
+        margin-bottom: 50px;
+       } 
+       .kaicard{
+        height:250px;
+       }
+}
+@media(max-width:576px){
+    .ranbhir{
+        width:auto;
+      height:60vw;
+          object-fit:cover;
+      }
+      .parent45{
+        width:80%;
+  height:100vw;
+      }
+}
+@media(min-width:576px){
+    .ranbhir{
+        width:100%;
+      height:50vw;
+          object-fit:cover;
+      }
+      .parent45{
+        width:100%;
+  height:80vw;
+      }  
+}
+@media(min-width:768px){
+    .ranbhir{
+        width:100%;
+      height:40vw;
+          object-fit:cover;
+      }
+      .parent45{
+        width:100%;
+  height:60vw;
+      }  
+}
+@media(min-width:992px){
+    .ranbhir{
+        width:100%;
+      height:30vw;
+          object-fit:cover;
+      }
+      .parent45{
+        width:100%;
+  height:60vw;
+  /* margin-bottom: 50px; */
+
+      }
+}
+@media(max-width:576px){
+   .row1{
+    display:flex;
+    flex-direction: column;
+    align-items:center
+   }
+   .socialmedia{
+    width: 100%;
+    background-color: rgb(4, 4, 17);
+height:200px;  
+}
+.travelworld{
+    margin-top:2px;
+    width: 100%;
+    background-color: rgb(4, 4, 17);
+height:300px;
+}
+.world{
+    width:50%;
+}
+}
+@media(min-width:576px){
+    .row1{
+        display:flex;
+        flex-direction: column;
+        align-items:center
+       }
+       .socialmedia{
+        width: 100%;
+        background-color: rgb(4, 4, 17);
+    height:200px;  
+    }
+    .travelworld{
+        margin-top:2px;
+        width: 100%;
+        background-color: rgb(4, 4, 17);
+    height:300px;
+    }
+    .world{
+        width:50%;
+    }
+}
+@media(min-width:768px){
+    .row1{
+        display:flex;
+        flex-direction: column;
+        align-items:center
+       }
+       .socialmedia{
+        width: 100%;
+        background-color: rgb(4, 4, 17);
+    height:200px;  
+    }
+    .travelworld{
+        margin-top:2px;
+        width: 100%;
+        background-color: rgb(4, 4, 17);
+    height:300px;
+    }
+    .world{
+        width:25%;
+    }
+}
+@media(min-width:992px){
+    .row1{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+       }
+       .travelworld{
+        flex:1
+       }
+       .column{
+        flex:1
+       }
+       .socialmedia{
+        flex:1
+       }
+       .world{
+        width:50%;
+    }  
+}
